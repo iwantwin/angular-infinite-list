@@ -4,7 +4,7 @@ import { ItemStyle, StyleCache, ItemInfo, RenderedRows } from './infinite-list.i
 import { SizeAndPositionManager, ItemSize } from './size-and-position-manager';
 import { InfinitelistService } from './infinite-list.service';
 import { ILEvent } from './il-event';
-import { Subject } from 'rxjs/Subject';
+import { Subject } from 'rxjs';
 
 import {
   ALIGN_AUTO,
